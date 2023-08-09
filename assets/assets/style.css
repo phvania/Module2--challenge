@@ -1,0 +1,375 @@
+ :root{
+    --lavender:#E6E6FA;
+    --aquamarine: #7FFFD4;
+    --lightblue: #ADD8E6;
+    --Red: #FF0000;
+}
+/* declared four global  variable*/
+
+
+/* element selector*/
+body{
+
+    background-color: var(--lightblue);}
+/* body color changed*/
+.header{
+   height: 100px; 
+   width: 98.5%;
+   background-color: var(--Red);
+   text-align: right;   
+}
+a{    font-size: large;
+    font-weight: bolder;
+    padding: 10px;
+    
+        color: rgba(23, 150, 255, 0.856);}
+
+
+
+.name{
+    text-align: left;
+
+    
+}
+/* hearder fininsh here*/
+/* section begins */
+.float-child1{
+    height: 250px;
+    width: 99%;
+    
+
+}
+.name1{
+    text-align: center;
+    top: 50px;
+    position: relative;
+    font-size: larger;
+    font-weight: bolder;
+}
+/* image is here*/
+img{
+    border-radius: 50%;
+    float: right;
+    margin-right: 100px;
+}
+/*first section finished*/
+/* this section name is about me*/
+.info{
+    height: 90px;
+    width: 60%;
+    
+    margin-left: 520px;
+    margin-top: -115px;
+}
+
+/* this is a paragraph*/
+.text{
+    text-align: center;
+    border-left: 2px solid black ;
+    height: 90px;
+    margin-left: 400px;
+}
+.about{
+    position: relative;
+    text-align: left;
+    height: 90px;
+    margin-left: 300px;
+    top: 100px;
+}
+/*section finished here*/
+
+/* this is new section*/
+/* this section called work section*/
+.letter{
+    
+    position: relative;
+    height: 250px;
+    width: 58%;
+    background-color: lavenderblush;
+    margin-left: 520px;
+    margin-bottom: -150px;
+    top: -150px;
+    background-image: url(image5.jpg);   
+}
+
+@media screen(min-width: 450px) {
+    .letter
+    .Report
+
+}
+.job{
+    position: relative;
+    text-align: left;
+    height: 90px;
+    margin-left: 300px;
+    top: 100px;    
+}
+
+.Report{
+    height: 70px;
+    width: 90px;
+    background-color: var(--lavender);
+position: relative;
+    top:100px;    
+    border: 3px solid red;
+}
+
+a{    font-size: large;
+font-weight: bolder;
+padding: 10px;
+
+    color: rgba(23, 150, 255, 0.856);
+}
+/*this is another section*/
+.first{
+    display: flex;
+    height: 60px;
+    width: 100px;
+    background-color: var(--lavender);
+    margin-top: 50px;
+    margin-left: -20px;
+    
+}
+.second{
+    display: flex;
+    height: 60px;
+    width: 100px;
+    background-color: var(--lavender);
+    margin-top: 50px;
+    margin-left: -20px;   
+}
+/*  images side by side section finished*/
+/* another side by side section start*/
+.third{
+    display: flex;
+    height: 60px;
+    width: 100px;
+    background-color: var(--lavender);
+    margin-top: 50px;
+    margin-left: -20px;
+    
+}
+.forth{
+    display: flex;
+    height: 60px;
+    width: 100px;
+    background-color:  var(--lavender);
+    margin-top: 50px;
+    margin-left: -20px;
+       
+}
+/*another side by side section finished*/
+/* float -container and float-child  below here*/
+/* class selectors are here*/
+
+
+
+  .float-child5{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    margin-right: 20px;
+    
+    border: 2px solid  var(--Red);
+    background-color:  var(--aquamarine);
+
+
+}   .float-container2{
+    
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    padding-right: 0px;
+    
+} 
+
+.float-child{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px solid  var(--Red);
+    background-image: url(68466101_2291179524311331_9035764717154467840_n.jpg);
+    /* background image is up here*/
+
+}   
+
+.float-container{
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    margin-left: 500px;
+    padding-right: 0px;
+    
+} 
+.float-child1{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px solid  var(--Red);
+    background-color: blue;
+} 
+/* hover effect applied here*/
+.float-child1:hover{
+    background-image: url(image1.jpg);
+}
+  .float-child2{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px solid  var(--Red);
+    background-color:  var(--aquamarine);
+
+}  
+/*  hover effect here*/ 
+.float-child2:hover{
+    background-image: url(image3.jpg);
+}
+.float-child3{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px solid  var(--Red);
+
+    background-color: gold;
+    
+    
+
+} 
+/* hover applied on background image*/  
+.float-child3:hover{
+    background-image: url(image3.jpg);
+}
+
+.float-child4{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px solid  var(--Red);
+    background-color: green;
+
+}   
+.float-child4:hover{
+    background-image: url(image4.jpg);
+}
+
+
+.float-container1{
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    margin-left: 500px;
+    padding-right: 0px;
+    
+
+} 
+/* footer start here*/
+.footerpnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.Contact{
+    margin-left: 300px;
+}
+
+
+.hide {
+    display: none;
+    text-align: center;
+
+  }
+  
+  .myDIV:hover + .hide {
+    display: block;
+    color:  var(--Red);
+    text-align: center;
+  }
+  .myDIV{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    
+  }
+
+
+  .hide1 {
+    display: none;
+    text-align: center;
+  }
+  
+  .myDIV1:hover + .hide1 {
+    display: block;
+    color:  var(--Red);
+    text-align: center;
+  }
+  .myDIV1{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+  }
+
+
+  .hide2 {
+    display: none;
+    text-align: center;
+  }
+  
+  .myDIV2:hover + .hide2 {
+    display: block;
+    color:  var(--Red);
+    text-align: center;
+  }
+  .myDIV2{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+  }
+
+
+
+  .hide3 {
+    display: none;
+    text-align: center;
+  }
+  
+  .myDIV3:hover + .hide3 {
+    display: block;
+    color:  var(--Red);
+    text-align: center;
+  }
+  .myDIV3{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+  }
+
+.foot{
+    display: inline;
+}
+/* footer finished here*/
+/* media screeen section start here*/
+
+@media screen(min-width: 450px) {
+
+body{
+    image;
+    section;
+    header;
+    footer;
+}    
+}
