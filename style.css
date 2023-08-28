@@ -63,6 +63,11 @@ img{
 }
 
 /* this is a paragraph*/
+.work{
+    position: relative;
+    margin-left: 300px;
+    top: 70px;
+}
 .text{
     text-align: center;
     border-left: 2px solid black ;
@@ -81,7 +86,9 @@ img{
 /* this is new section*/
 /* this section called work section*/
 .letter{
-    
+    background-image: url(./project-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     height: 250px;
     width: 58%;
@@ -89,9 +96,11 @@ img{
     margin-left: 520px;
     margin-bottom: -150px;
     top: -150px;
-    background-image: url(image5.jpg);   
+    background-color:palevioletred;   
 }
-
+.letter:hover{
+    background-image: url(image5.jpg);
+}
 @media screen(min-width: 450px) {
     .letter
     .Report
@@ -99,15 +108,15 @@ img{
 }
 .job{
     position: relative;
-    text-align: left;
     height: 90px;
-    margin-left: 300px;
-    top: 100px;    
+    margin-left: 500px;
+    top: 100px;  
+
 }
 
 .Report{
-    height: 70px;
-    width: 90px;
+    height: 80px;
+    width: 130px;
     background-color: var(--lavender);
 position: relative;
     top:100px;    
